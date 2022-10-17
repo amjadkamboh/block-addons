@@ -1,0 +1,47 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/captain-theme-block",
+	"version": "0.1.0",
+	"title": "Captain Theme Block",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example static block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"keywords": [ "tab", "tabbed content"],
+	"attributes":{
+		"tabLabelsArray":{
+			"type": "array",
+			"default": []
+		},
+		"tabTaglineArray":{
+			"type": "array",
+			"default": []
+		},		
+		"updateChild":{
+			"type": "boolean",
+			"default": false
+		},		
+		"sideTabLayout":{
+			"type": "boolean",
+			"default": false
+		},
+		"blockTitle":{
+            "type": "string",
+			"default": ""
+        },
+		"blockText":{
+			"type": "string",
+			"default": ""
+		},
+		"content":{
+			"type": "string"
+		}
+	},
+	"textdomain": "captain-theme-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

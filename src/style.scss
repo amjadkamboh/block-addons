@@ -1,0 +1,236 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-admin{
+	.edit-post-sidebar .block-editor-rich-text__editable.rich-text {
+		margin: 20px 0;
+		border: 1px solid;
+		padding: 10px;
+	}
+	.wp-block-create-block-captain-theme-block {
+		background-color: #21759b;
+		color: #fff;
+		padding: 2px;
+	}
+	.Value-1section {
+		background: rgb(237, 243, 255);
+		padding: 0 50px;
+		ul {
+			margin: 0;
+			padding: 0;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			li {
+				list-style: none;
+				padding: 30px;
+			}
+		}
+	}
+	.editor-post-featured-image {
+		margin-bottom: 20px;
+	}
+	.col-inner-5 {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		img {
+			width: 18%;
+		}
+	}
+	.col-3 {
+		display: flex;
+		justify-content: space-between;
+		.col-inner-3 {
+			width: 32%;
+		}
+	}
+	.Hero-1section {
+		border: 2px solid #ccc;
+		padding: 50px;
+	}
+	.col-2 {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.col-2 .col-inner-2 {
+		width: 48%;
+	}
+	.img-text-section .col-2 {
+		flex-direction: row-reverse;
+	}
+	.col-inner-35-70 {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 30px;
+	}
+	.col-inner-35-70 img {
+		width: 35%;
+	}
+	.col-inner-2-cont {
+		width: 60%;
+	}
+}
+
+body:not(.wp-admin){
+	.Hero-outter {
+		max-width: 1280px;
+		margin: 0 auto;
+		padding: 0 40px;
+	}
+
+	.col-2 {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.col-2 .col-inner-2 {
+		width: 48%;
+	}
+
+	.theme-section-full {
+		padding: 50px 0;
+	}
+
+	/***/
+	.wp-block-wpm-captain-block-value-block-list.theme-section-full {
+		padding: 0;
+	}
+	.Value-1section ul {
+		padding: 0;
+		margin: 0;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	
+	.Value-1section ul li {
+		list-style: none;
+		border-left: 3px solid #fff;
+		text-align: center;
+		width: 33.33%;
+		padding: 30px;
+		font-weight: bold;
+		font-size: 20px;
+	}
+	
+	.full-bg-color {
+		background: rgb(237, 243, 255);
+	}
+	
+	.Value-1section ul li:first-child {
+		border: none;
+	}
+	.img-text-section .col-2 {
+		flex-direction: row-reverse;
+	}
+	.wp-block-wpm-captain-block-proposition-block-list {
+		text-align: center;
+	}
+	.col-3 {
+		display: flex;
+		justify-content: space-between;
+	}
+	.col-3 .col-inner-3 {
+		width: 31%;
+	}
+	.wp-block-wpm-captain-block-guide-block-list {
+		text-align: center;
+	}
+	
+	.col-inner-5 {
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	.col-inner-5 img {
+		width: 18%;
+	}
+	
+	.wp-block-wpm-captain-block-guide-block-list .col-inner-5 {
+		margin-bottom: 30px;
+	}
+	.wp-block-wpm-captain-block-price-block-list {
+		text-align: center;
+	}
+	.wp-block-wpm-captain-block-plan-block-list {
+		text-align: center;
+	}
+	.col-inner-35-70 {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		max-width: 800px;
+		margin: 0 auto 30px;
+	}
+	.col-inner-35-70 img {
+		width: 30%;
+	}
+	.col-inner-2-cont {
+		width: 65%;
+		text-align: left;
+	}
+}
+.tab-title {
+    padding: 20px 50px 20px 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+	cursor: pointer;
+    position: relative;
+}
+.tab-title::before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #fff;
+    vertical-align: middle;
+    right: 20px;
+    top: 50%;
+    margin-top: -7px;
+    transition:transform 0.5s;
+    transform: rotate(0deg);
+    z-index: 1;
+}
+.tab-title::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #000;
+    vertical-align: middle;
+    right: 20px;
+    top: 50%;
+    margin-top: -5px;
+    transition:transform 0.5s;
+    transform: rotate(0deg);
+}
+.tab-panel {
+    padding: 0 20px 30px 20px;
+    display: none;
+}
+
+.wp-block-wpm-captain-block-tab.tab-panel-wrapper {
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 6%);
+    border-radius: 10px;
+}
+.tab-panel p:last-child {
+    margin: 0;
+}
+.tab-title.active::before,
+.tab-title.active::after {
+  transform: rotate(180deg);
+ }

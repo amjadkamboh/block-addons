@@ -1,0 +1,48 @@
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.Value-1section {
+  background: rgb(237, 243, 255);
+  padding: 0 50px;
+}
+.Value-1section ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Value-1section ul li {
+  list-style: none;
+  padding: 30px;
+}
+
+.Hero-1section {
+  border: 2px solid #ccc;
+  padding: 50px;
+}
+
+.mar-30 {
+  margin-top: 50px;
+}
+
+.wpm-locationtable-title {
+  margin-top: 20px;
+  border-top: 2px solid;
+  width: 100%;
+  justify-content: flex-start !important;
+  background: #ccc;
+}
+
+.wp-block-wpm-captain-block-tab {
+  background: #ddd;
+  padding: 20px 20px 80px;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=index.css.map*/
